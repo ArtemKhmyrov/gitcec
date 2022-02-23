@@ -1,0 +1,99 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+
+.header_liner a{
+	text-decoration: none;
+}
+
+.cec{
+	color: white;
+	background: blue;
+}
+
+.header_liner {
+	width: 100%;
+	background: #293284;
+	height: 68px;
+}
+
+.header_liner p{
+	color: #FFFFFF;
+	font-family: Mplus1p-Regular;
+	vertical-align: center;
+	padding-top:  0;
+	margin-top: 0;
+	font-size: 20px;
+	text-align:  center;
+	vertical-align: middle;
+	top: 50%;
+}
+
+.header_liner img{
+	transform: translate(0, 15px);
+	margin-right:  1%;
+}
+
+.menu{
+	padding-top: 1%;
+	background-color: #E5E5E5;;
+}
+
+.menu ul {
+	text-align: center;
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.menu li {
+	display: inline;
+}
+
+.menu ul li a {
+	text-align: center;
+	display: inline-flex;
+	width: 296px;
+	text-decoration: none;
+	font-family: Mplus1p;
+	font-size: 18px;
+	color: black;
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: nowrap;
+	margin-right: 1%;
+	margin-left: 1%;
+	border-radius: 20px;
+	border: 1px solid #000000;
+	background: white;
+	align-items:  center;
+	height:  40px;
+}
+
+.btn-menu:hover { background: rgb(220, 220, 220); }
+.btn-menu:active { background: rgb(192, 192, 192); }
+
+.line {
+    border-bottom: 1px solid #000000; 
+    padding-top: 1%;
+   }
+
+.personal_area{
+	float: right;
+	margin-top: 0;
+	margin-right:  5%;
+	margin-bottom: 0;
+	vertical-align:  middle;
+}
+
+#second_logo_in_menu_left{
+	float: left;
+	margin-left: 2%;
+}
+
+#second_logo_in_menu_right {
+	float: right;
+	margin-right: 2%;
+}
