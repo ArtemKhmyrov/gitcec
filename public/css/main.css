@@ -18,9 +18,9 @@ body, html{
 	display: inline-block;
 	text-align:  center;
 vertical-align:  middle;
-	    margin: auto;
-	    margin-right: 850px;
+	    margin: auto 0px;
 	    margin-bottom: 350px;
+		padding-left: 10%;
 }
 .conteiner_offer_main_page_text p{
 	font-family: Mplus1p-Regular;
